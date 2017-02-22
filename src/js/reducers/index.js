@@ -1,9 +1,9 @@
 import { combineReducers } from "redux"
 
-import tweets from "./tweetsReducer"
-import user from "./userReducer"
+import products from "./productsReducer"
+import changingRoom from "./ChangingRoomReducer"
 
 export default combineReducers({
-  tweets,
-  user,
+  products,
+  changingRoom,
 })

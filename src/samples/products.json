@@ -1,0 +1,816 @@
+{
+    "result": {
+        "productCategories": [
+            {
+                "productCategoryId": "S29_ACCESSORIES",
+                "categoryName": "Accessories",
+                "products": [
+                    {
+                        "productId": "293311",
+                        "name": "Cinch Belt",
+                        "styleId": "3311",
+                        "imageURL": "photos/3311.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$76.00"
+                    },
+                    {
+                        "productId": "295238",
+                        "name": "Patchwork Scarf",
+                        "styleId": "5238",
+                        "imageURL": "photos/5238.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$49.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_BOTTOMS",
+                "categoryName": "Bottoms",
+                "products": [
+                    {
+                        "productId": "293202",
+                        "name": "Top-Notch Trouser",
+                        "styleId": "3202",
+                        "imageURL": "photos/3202.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$129.00"
+                    },
+                    {
+                        "productId": "295165",
+                        "name": "Mojave Slim Boyfriend",
+                        "styleId": "5165",
+                        "imageURL": "photos/5165.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    },
+                    {
+                        "productId": "295166",
+                        "name": "The Straight",
+                        "styleId": "5166",
+                        "imageURL": "photos/5166.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295167",
+                        "name": "Zip Skinny",
+                        "styleId": "5167",
+                        "imageURL": "photos/5167.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    },
+                    {
+                        "productId": "295169",
+                        "name": "Tidal Skinny",
+                        "styleId": "5169",
+                        "imageURL": "photos/5169.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295170",
+                        "name": "Tidal Curvy Skinny",
+                        "styleId": "5170",
+                        "imageURL": "photos/5170.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295171",
+                        "name": "Slim Boyfriend",
+                        "styleId": "5171",
+                        "imageURL": "photos/5171.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295172",
+                        "name": "Kick It Crop",
+                        "styleId": "5172",
+                        "imageURL": "photos/5172.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295174",
+                        "name": "Pencil Trouser",
+                        "styleId": "5174",
+                        "imageURL": "photos/5174.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295175",
+                        "name": "Dot Trouser",
+                        "styleId": "5175",
+                        "imageURL": "photos/5175.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295176",
+                        "name": "Track Star Trouser",
+                        "styleId": "5176",
+                        "imageURL": "photos/5176.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295177",
+                        "name": "Easy Crop",
+                        "styleId": "5177",
+                        "imageURL": "photos/5177.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295178",
+                        "name": "The Hutton",
+                        "styleId": "5178",
+                        "imageURL": "photos/5178.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    },
+                    {
+                        "productId": "295179",
+                        "name": "M'Leggings",
+                        "styleId": "5179",
+                        "imageURL": "photos/5179.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    },
+                    {
+                        "productId": "295181",
+                        "name": "Court Skort",
+                        "styleId": "5181",
+                        "imageURL": "photos/5181.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295183",
+                        "name": "Twirl Skirt",
+                        "styleId": "5183",
+                        "imageURL": "photos/5183.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295184",
+                        "name": "Flirt Skirt",
+                        "styleId": "5184",
+                        "imageURL": "photos/5184.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295185",
+                        "name": "Grandstand Skirt",
+                        "styleId": "5185",
+                        "imageURL": "photos/5185.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295186",
+                        "name": "Dame Skirt",
+                        "styleId": "5186",
+                        "imageURL": "photos/5186.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_DRESSES",
+                "categoryName": "Dresses",
+                "products": [
+                    {
+                        "productId": "295232",
+                        "name": "Playsuit",
+                        "styleId": "5232",
+                        "imageURL": "photos/5232.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$129.00"
+                    },
+                    {
+                        "productId": "295233",
+                        "name": "Camilla Shirtdress",
+                        "styleId": "5233",
+                        "imageURL": "photos/5233.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295235",
+                        "name": "Castaway Dress",
+                        "styleId": "5235",
+                        "imageURL": "photos/5235.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_JACKETS",
+                "categoryName": "Jackets",
+                "products" : [
+                    {
+                        "productId": "295150",
+                        "name": "Grand Slam Blazer",
+                        "styleId": "5150",
+                        "imageURL": "photos/5150.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$169.00"
+                    },
+                    {
+                        "productId": "295151",
+                        "name": "Maritime Trench",
+                        "styleId": "5151",
+                        "imageURL": "photos/5151.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$189.00"
+                    },
+                    {
+                        "productId": "295152",
+                        "name": "Soho Hoodie",
+                        "styleId": "5152",
+                        "imageURL": "photos/5152.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$149.00"
+                    },
+                    {
+                        "productId": "295153",
+                        "name": "Easy Topper",
+                        "styleId": "5153",
+                        "imageURL": "photos/5153.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295156",
+                        "name": "Dot Jacket",
+                        "styleId": "5156",
+                        "imageURL": "photos/5156.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$169.00"
+                    },
+                    {
+                        "productId": "295159",
+                        "name": "Locomotive Jacket",
+                        "styleId": "5159",
+                        "imageURL": "photos/5159.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$129.00"
+                    },
+                    {
+                        "productId": "295160",
+                        "name": "Field Jacket",
+                        "styleId": "5160",
+                        "imageURL": "photos/5160.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$139.00"
+                    },
+                    {
+                        "productId": "295162",
+                        "name": "Portrait Jacket",
+                        "styleId": "5162",
+                        "imageURL": "photos/5162.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$129.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_SHOES",
+                "categoryName": "Shoes",
+                "products" : [
+                    {
+                        "productId": "296001",
+                        "name": "Isla Wedge",
+                        "styleId": "6001",
+                        "imageURL": "photos/6001.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$139.00"
+                    },
+                    {
+                        "productId": "296002",
+                        "name": "Athena Sandal",
+                        "styleId": "6002",
+                        "imageURL": "photos/6002.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$108.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_SWEATERS",
+                "categoryName": "Sweaters",
+                "products": [
+                    {
+                        "productId": "295132",
+                        "name": "Pocket Cardigan",
+                        "styleId": "5132",
+                        "imageURL": "photos/5132.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    },
+                    {
+                        "productId": "295133",
+                        "name": "Swing Sweater",
+                        "styleId": "5133",
+                        "imageURL": "photos/5133.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295134",
+                        "name": "Hampton Shell",
+                        "styleId": "5134",
+                        "imageURL": "photos/5134.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295135",
+                        "name": "Classic Cardigan",
+                        "styleId": "5135",
+                        "imageURL": "photos/5135.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$119.00"
+                    },
+                    {
+                        "productId": "295137",
+                        "name": "Beachcomber Hoodie",
+                        "styleId": "5137",
+                        "imageURL": "photos/5137.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295139",
+                        "name": "Gossamer Pullover",
+                        "styleId": "5139",
+                        "imageURL": "photos/5139.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295140",
+                        "name": "Cut Out Cardigan",
+                        "styleId": "5140",
+                        "imageURL": "photos/5140.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295141",
+                        "name": "Victory Sweater",
+                        "styleId": "5141",
+                        "imageURL": "photos/5141.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$139.00"
+                    },
+                    {
+                        "productId": "295142",
+                        "name": "Banner Sweater",
+                        "styleId": "5142",
+                        "imageURL": "photos/5142.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295143",
+                        "name": "Windbreaker Cardigan",
+                        "styleId": "5143",
+                        "imageURL": "photos/5143.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$139.00"
+                    },
+                    {
+                        "productId": "295145",
+                        "name": "Fencing Cardigan",
+                        "styleId": "5145",
+                        "imageURL": "photos/5145.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_TOPS",
+                "categoryName": "Tops",
+                "products" : [
+                    {
+                        "productId": "293052",
+                        "name": "Serenity Tee",
+                        "styleId": "3052",
+                        "imageURL": "photos/3052.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295193",
+                        "name": "Sleeveless Laidback Tee",
+                        "styleId": "5193",
+                        "imageURL": "photos/5193.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$76.00"
+                    },
+                    {
+                        "productId": "295201",
+                        "name": "Prudence Top",
+                        "styleId": "5201",
+                        "imageURL": "photos/5201.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295204",
+                        "name": "Matinee Top",
+                        "styleId": "5204",
+                        "imageURL": "photos/5204.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295205",
+                        "name": "Indulgence Top",
+                        "styleId": "5205",
+                        "imageURL": "photos/5205.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295206",
+                        "name": "La-Di-Da Blouse",
+                        "styleId": "5206",
+                        "imageURL": "photos/5206.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295207",
+                        "name": "Knot Cami",
+                        "styleId": "5207",
+                        "imageURL": "photos/5207.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295208",
+                        "name": "Bountiful Blouse",
+                        "styleId": "5208",
+                        "imageURL": "photos/5208.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295210",
+                        "name": "New Plaza Top",
+                        "styleId": "5210",
+                        "imageURL": "photos/5210.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295211",
+                        "name": "Eden Top",
+                        "styleId": "5211",
+                        "imageURL": "photos/5211.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$99.00"
+                    },
+                    {
+                        "productId": "295212",
+                        "name": "Terrace Cami",
+                        "styleId": "5212",
+                        "imageURL": "photos/5212.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295213",
+                        "name": "New Stevie Top",
+                        "styleId": "5213",
+                        "imageURL": "photos/5213.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295214",
+                        "name": "Vine Cami",
+                        "styleId": "5214",
+                        "imageURL": "photos/5214.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    },
+                    {
+                        "productId": "295215",
+                        "name": "Wish Top",
+                        "styleId": "5215",
+                        "imageURL": "photos/5215.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295216",
+                        "name": "Parlor Top",
+                        "styleId": "5216",
+                        "imageURL": "photos/5216.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295218",
+                        "name": "Tie-Back Halter",
+                        "styleId": "5218",
+                        "imageURL": "photos/5218.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$76.00"
+                    },
+                    {
+                        "productId": "295219",
+                        "name": "Crush Top",
+                        "styleId": "5219",
+                        "imageURL": "photos/5219.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295220",
+                        "name": "Cold Shoulder Cami",
+                        "styleId": "5220",
+                        "imageURL": "photos/5220.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295221",
+                        "name": "50/50 Shirt",
+                        "styleId": "5221",
+                        "imageURL": "photos/5221.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295222",
+                        "name": "Fierce Top",
+                        "styleId": "5222",
+                        "imageURL": "photos/5222.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295223",
+                        "name": "Veranda Top",
+                        "styleId": "5223",
+                        "imageURL": "photos/5223.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$109.00"
+                    },
+                    {
+                        "productId": "295224",
+                        "name": "Flirt Cami",
+                        "styleId": "5224",
+                        "imageURL": "photos/5224.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295226",
+                        "name": "Indulgence Tank",
+                        "styleId": "5226",
+                        "imageURL": "photos/5226.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295228",
+                        "name": "Priority Top",
+                        "styleId": "5228",
+                        "imageURL": "photos/5228.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295229",
+                        "name": "Boating Button-Down",
+                        "styleId": "5229",
+                        "imageURL": "photos/5229.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295230",
+                        "name": "Tassel Tank",
+                        "styleId": "5230",
+                        "imageURL": "photos/5230.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$76.00"
+                    },
+                    {
+                        "productId": "295231",
+                        "name": "Confetti Cami",
+                        "styleId": "5231",
+                        "imageURL": "photos/5231.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295062",
+                        "name": "Double-V Tee",
+                        "styleId": "5062",
+                        "imageURL": "photos/5062.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$76.00"
+                    },
+                    {
+                        "productId": "295067",
+                        "name": "V-Neck Cami",
+                        "styleId": "5067",
+                        "imageURL": "photos/5067.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$36.00"
+                    },
+                    {
+                        "productId": "295136",
+                        "name": "Tennis Tank",
+                        "styleId": "5136",
+                        "imageURL": "photos/5136.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295188",
+                        "name": "Bistro Tee",
+                        "styleId": "5188",
+                        "imageURL": "photos/5188.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "295189",
+                        "name": "Ultimate Tee",
+                        "styleId": "5189",
+                        "imageURL": "photos/5189.jpeg",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    },
+                    {
+                        "productId": "295190",
+                        "name": "Tempt Tee",
+                        "styleId": "5190",
+                        "imageURL": "photos/5190.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295191",
+                        "name": "Zip Crop Top",
+                        "styleId": "5191",
+                        "imageURL": "photos/5191.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$84.00"
+                    },
+                    {
+                        "productId": "295192",
+                        "name": "Laidback Tee",
+                        "styleId": "5192",
+                        "imageURL": "photos/5192.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295197",
+                        "name": "Iris Tank",
+                        "styleId": "5197",
+                        "imageURL": "photos/5197.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$56.00"
+                    },
+                    {
+                        "productId": "295198",
+                        "name": "Carousel Tank",
+                        "styleId": "5198",
+                        "imageURL": "photos/5198.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "295199",
+                        "name": "Topspin Tee",
+                        "styleId": "5199",
+                        "imageURL": "photos/5199.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$86.00"
+                    },
+                    {
+                        "productId": "295200",
+                        "name": "Easy Tank",
+                        "styleId": "5200",
+                        "imageURL": "photos/5200.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$59.00"
+                    },
+                    {
+                        "productId": "295202",
+                        "name": "Cross-Strap Tank",
+                        "styleId": "5202",
+                        "imageURL": "photos/5202.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    }
+                ]
+            },
+            {
+                "productCategoryId": "S29_JEWELRY",
+                "categoryName": "Jewelry",
+                "products" : [
+                    {
+                        "productId": "292101",
+                        "name": "Seahorse Cuff",
+                        "styleId": "2101",
+                        "imageURL": "photos/2101.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    },
+                    {
+                        "productId": "292103",
+                        "name": "Anchor Necklace",
+                        "styleId": "2103",
+                        "imageURL": "photos/2103.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$79.00"
+                    },
+                    {
+                        "productId": "292104",
+                        "name": "Anchor Earrings",
+                        "styleId": "2104",
+                        "imageURL": "photos/2104.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$49.00"
+                    },
+                    {
+                        "productId": "292105",
+                        "name": "St. Tropez Necklace",
+                        "styleId": "2105",
+                        "imageURL": "photos/2105.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$118.00"
+                    },
+                    {
+                        "productId": "292106",
+                        "name": "St. Tropez Earrings",
+                        "styleId": "2106",
+                        "imageURL": "photos/2106.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    },
+                    {
+                        "productId": "292107",
+                        "name": "Rope Duo Necklace",
+                        "styleId": "2107",
+                        "imageURL": "photos/2107.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$98.00"
+                    },
+                    {
+                        "productId": "292108",
+                        "name": "Lock & Key Necklace",
+                        "styleId": "2108",
+                        "imageURL": "photos/2108.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$89.00"
+                    },
+                    {
+                        "productId": "292109",
+                        "name": "Sea Knot Necklace",
+                        "styleId": "2109",
+                        "imageURL": "photos/2109.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$59.00"
+                    },
+                    {
+                        "productId": "292110",
+                        "name": "Riviera Necklace",
+                        "styleId": "2110",
+                        "imageURL": "photos/2110.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$138.00"
+                    },
+                    {
+                        "productId": "292114",
+                        "name": "Lock & Key Bracelet",
+                        "styleId": "2114",
+                        "imageURL": "photos/2114.png",
+                        "productTypeId": "FINISHED_GOOD",
+                        "price": "$69.00"
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "5",
+    "jsonrpc": "2.0"
+}
