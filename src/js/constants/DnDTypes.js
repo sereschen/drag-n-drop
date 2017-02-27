@@ -1,4 +1,5 @@
 export default {
-	Product: 'product',
+	ListProduct: 'ListProduct',
 	ChangingRoom: 'ChangingRoom',
+	ChangingRoomProduct : 'ChangingRoomProduct'
 };

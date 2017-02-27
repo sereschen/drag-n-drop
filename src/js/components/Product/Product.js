@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Product.scss";
 import classNames from "classnames";
-import ProductImage from "../ProductImage/ProductImage";
+import DragableProduct from "../DragableProduct/DragableProduct";
 
 export default class Product extends React.Component {
 	
@@ -12,7 +12,7 @@ export default class Product extends React.Component {
 		return (
 			<div class={classNames(styles.product, this.props.bootstrapClasses)}>
 			<span>{product.name}</span>
-			<ProductImage product={product}></ProductImage>
+			<DragableProduct product={product}></DragableProduct>
 			</div>
 			)
 	}
