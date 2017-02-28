@@ -1,4 +1,32 @@
 .changing-room{
-	border: 1px solid #000;
-	height:700px;
+	height: 500px;
+	margin-bottom: 1em;
+	border: 1px solid #ccc;
+}
+
+.changing-room-container {
+	height: 700px;
+	padding: 1em 1em 1em 0;
+}
+
+.black-btn {
+	padding: 7px 20px;
+	border: solid 1px #ccc;
+	background-color: black;
+	color: white;
+	font-family: 'Archer Bold';
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.changing-room-image {
+	width: 33%;
+}
+
+.selectContainer {
+	margin: 0 0 15px 0;
+
+	select {
+		width: 190px !important;
+	}
 }

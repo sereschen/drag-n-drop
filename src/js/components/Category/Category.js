@@ -7,11 +7,14 @@ import Product from "../Product/Product";
 export default class Category extends React.Component {	
 	render(){
 		const {category} = this.props;
-		const products = category.products.map(product=> <Product bootstrapClasses={'col-sm-4'} key={product.productId} product={product}></Product> );
+		const products = category.products.map(
+			product=> <Product bootstrapClasses={'col-sm-3'} key={product.productId} product={product}></Product>
+		);
 		return (
 		<div class={classNames(styles.category , 'row')}>
-			<div class={classNames(styles.title)}>{category.categoryName}</div>
-			{products}
+			<div class={classNames(styles.productsContainer)}>
+                {products}
+			</div>
 		</div>
 		)
 	}

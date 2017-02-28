@@ -84,10 +84,22 @@ export default class ChangingRoom extends React.Component {
 		const renderedProducs = products.map(product=>{
 			return (<ChangingProduct resizeProduct={(product, width, height)=> resizeProduct(product, width, height)} key={product.productId} product={product}></ChangingProduct>)
 		});		
-return connectDropTarget(
-	<div class={classNames(styles['changing-room'], bootstrapClasses)}>
-	{renderedProducs}
-	</div>
-	)
-}
+		return connectDropTarget(
+		<div class={classNames(styles['changing-room-container'], this.props.bootstrapClasses)}>
+			<div class={classNames('row', styles.selectContainer)}>
+				<select name="lookCategorySelect" id="lookCategorySelect" defaultValue={""}>
+					<option value="">Select a Look Category</option>
+				</select>
+			</div>
+			<div class={classNames(styles['changing-room'])}>
+                {renderedProducs}
+			</div>
+			<div>
+				<span class={classNames(styles['black-btn'])}>SAVE THIS LOOK</span>
+			</div>
+		</div>
+
+		)
+	}
+
 }

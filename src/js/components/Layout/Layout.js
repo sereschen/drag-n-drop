@@ -6,6 +6,8 @@ import ChangingRoom from "../ChangingRoom/ChangingRoom";
 import { DragDropContext } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 import _ from "lodash";
+import styles from "./Layout.scss";
+import classNames from "classnames";
 
 @connect((store) => {
   return {
@@ -17,19 +19,23 @@ import _ from "lodash";
 export default class Layout extends React.Component {
 
 
-  componentDidMount() {
-    this.props.dispatch(fetchProducts());
-  }
+    componentWillMount() {
+        this.props.dispatch(fetchProducts());
+    }
 
   render() {
     const { products  } = this.props;
 
     return (
-      <div class={'container'}>
-      <ChangingRoom bootstrapClasses={'col-sm-6'}></ChangingRoom>
-      <Categories bootstrapClasses={'col-sm-6'} categories={products} />
+      <div class={classNames(styles.whiteBackground,'container')}>
+        <div  class={classNames('row')}>
+            <div class={classNames('col-xs-2', styles.logoContainer)}><img src="../../../images/cliologo.gif" alt="cliologo"/></div>
+        </div>
+          <ChangingRoom bootstrapClasses={'col-sm-6'}></ChangingRoom>
+          <Categories bootstrapClasses={'col-sm-6'} categories={products} />
       </div>
       
       )
   }
+
 }

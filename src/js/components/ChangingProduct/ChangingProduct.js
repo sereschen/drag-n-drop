@@ -70,8 +70,7 @@ export default class ChangingProduct extends React.Component {
 			<div class={classNames(styles.changingProduct)} style={{ top : product.top , left : product.left}}>
 				<Resizable onResizeStop={(direction, styleSize)=> resizeProduct(product, styleSize.width, styleSize.height)} 
 						width={product.width} 
-						height={product.height} 
-						lockAspectRatio={true} 
+						lockAspectRatio={true}
 						handleStyle={handlersStyles}
 						isResizable={handlers}
 						handleClass={handlersClass}>

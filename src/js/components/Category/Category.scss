@@ -1,6 +1,15 @@
 .category{
+	padding-left: 1em;
 	.title{
 		font-size: 2em;
 		font-weight:bold;
+		text-transform: uppercase;
+		font-family: 'Archer';
 	}	
+}
+
+.productsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1em;
 }

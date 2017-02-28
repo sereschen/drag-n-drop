@@ -1,4 +1,11 @@
-.categories{
-	height:700px;
+.categories {
+	overflow-x: hidden;
 	overflow-y: scroll;
+	border-left: 1px solid #ccc;
+	height: 90%;
+	padding-top: 15px;
+}
+
+.selectContainer {
+	margin-left: 1em;
 }

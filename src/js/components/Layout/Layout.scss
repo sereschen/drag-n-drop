@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Archer";
+    src: url('../../../fonts/archer-book.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Archer Bold";
+    src: url('../../../fonts/archer-bold.otf') format("opentype");
+}
+
+
+body {
+    font-family: 'Archer';
+    background-color: #dedede;
+}
+
+.whiteBackground {
+    background-color: white;
+    height: 100vh;
+}
+
+.logoContainer {
+    margin-top: 1em;
+
+    img  {
+        max-width: 100%;
+    }
+}
+
+input {
+    height: 40px;
+    width: 170px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 40px;
+    width: 120px;
+    padding: 6px 25px 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background: #fff url(../../../images/arrowdown.gif) no-repeat 97% 50%;
+    margin-right: 10px;
+}
