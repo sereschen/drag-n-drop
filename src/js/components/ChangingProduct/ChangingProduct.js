@@ -22,14 +22,9 @@ export default class ChangingProduct extends React.Component {
 	
 
 	render() {
-		const { product, isDragging, connectDragSource , connectDragPreview} = this.props;
-		const style = {
-			position: 'absolute',
-			border: '1px dashed gray',
-			cursor: 'move',
-		};
+		const { product, isDragging, connectDragSource , connectDragPreview , resizeProduct } = this.props;
 
-		const styles = {
+		const handlerStyle = {
 			width : '10px',
 			height : '10px',
 			borderRadius : '50%',
@@ -38,10 +33,10 @@ export default class ChangingProduct extends React.Component {
 		};
 
 		const handlersStyles = {
-			topRight: {...styles, top : '-7px', right: '-7px'},
-			topLeft: {...styles, top : '-7px' , left : '-7px'},
-			bottomRight: {...styles, bottom : '-7px', right : '-7px'},
-			bottomLeft: {...styles, bottom : '-7px', left : '-7px'}
+			topRight: {...handlerStyle, top : '-7px', right: '-7px'},
+			topLeft: {...handlerStyle, top : '-7px' , left : '-7px'},
+			bottomRight: {...handlerStyle, bottom : '-7px', right : '-7px'},
+			bottomLeft: {...handlerStyle, bottom : '-7px', left : '-7px'}
 		}
 
 		const handlers = {
@@ -55,14 +50,38 @@ export default class ChangingProduct extends React.Component {
 			topLeft: true
 		};
 
+		const handlersClass = {
+			top: classNames(styles.handler),
+			right: classNames(styles.handler),
+			bottom: classNames(styles.handler),
+			left: classNames(styles.handler),
+			topRight: classNames(styles.handler),
+			bottomRight: classNames(styles.handler),
+			bottomLeft: classNames(styles.handler),
+			topLeft: classNames(styles.handler)
+		};
+
+
+
 		if (isDragging) {
 			return null;
 		}
-		return connectDragSource(
-			<div style={{...style, top : product.top , left : product.left}}>
-			<Resizable width={300} lockAspectRatio={true} height={300} handleStyle={handlersStyles}  isResizable={handlers} customClass={classNames(styles['changing-product'])}>
-			<ProductImage product={product}></ProductImage>
-			</Resizable>
+		return (
+			<div class={classNames(styles.changingProduct)} style={{ top : product.top , left : product.left}}>
+				<Resizable onResizeStop={(direction, styleSize)=> resizeProduct(product, styleSize.width, styleSize.height)} 
+						width={product.width} 
+						height={product.height} 
+						lockAspectRatio={true} 
+						handleStyle={handlersStyles}
+						isResizable={handlers}
+						handleClass={handlersClass}>
+
+						{connectDragSource(
+							<div>
+							<ProductImage product={product}></ProductImage>
+							</div>
+							)}
+				</Resizable>
 			</div>
 			);
 	}
