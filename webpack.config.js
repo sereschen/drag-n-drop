@@ -18,6 +18,12 @@ module.exports = {
     }, {
       test: /\.scss$/,
       loader: 'style!css?modules!sass'
+    },{
+        test: /\.(eot|svg|ttf|woff|woff2|otf)$/,
+        loader: 'file-loader?name=fonts/[name].[ext]'
+    },{
+        test: /\.(jpg|jpeg|gif|png)$/,
+        loader: 'file-loader?name=img/[name].[ext]'
     }]
   },
   output: {
