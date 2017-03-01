@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import classNames from "classnames";
 import styles from "./ChangingRoom.scss";
 import ChangingProduct from "../ChangingProduct/ChangingProduct";
@@ -13,8 +14,6 @@ const changingRoomTarget = {
 	drop(props, monitor) {
 		const type = monitor.getItemType();
 		const {	product	} = monitor.getItem();
-		console.log(props)
-
 		switch (type) {
 			case DnDTypes.ListProduct:
 				props.addProduct(monitor.getItem());
@@ -52,8 +51,12 @@ const changingRoomTarget = {
 
 const mapDispatchToProps = (dispatch) => {
 	return ({
-		addProduct: (product) => {
-			dispatch(actions.addProductToChangingRoom(product));
+		addProduct: (product) => {			
+			dispatch(actions.addProduct(product));
+		},
+
+		deleteProduct: (product) => {
+			dispatch(actions.deleteProduct(product));
 		},
 
 		moveProduct: (product, left, top) => {
@@ -80,12 +83,16 @@ const mapDispatchToProps = (dispatch) => {
 export default class ChangingRoom extends React.Component {
 
 	render(){
-		const {products , connectDropTarget , resizeProduct , bootstrapClasses} = this.props;
+		const {products , connectDropTarget , resizeProduct , bootstrapClasses , deleteProduct} = this.props;
 		const renderedProducs = products.map(product=>{
-			return (<ChangingProduct resizeProduct={(product, width, height)=> resizeProduct(product, width, height)} key={product.productId} product={product}></ChangingProduct>)
+			return (<ChangingProduct 
+						resizeProduct={(product, width, height) => resizeProduct(product, width, height)} 
+						deleteProduct={(product) => deleteProduct(product)} 
+						key={product.productId} 
+						product={product}></ChangingProduct>)
 		});		
 		return connectDropTarget(
-		<div class={classNames(styles['changing-room-container'], this.props.bootstrapClasses)}>
+			<div class={classNames(styles['changing-room-container'], this.props.bootstrapClasses)}>
 			<div class={classNames('row', styles.selectContainer)}>
 				<select name="lookCategorySelect" id="lookCategorySelect" defaultValue={""}>
 					<option value="">Select a Look Category</option>

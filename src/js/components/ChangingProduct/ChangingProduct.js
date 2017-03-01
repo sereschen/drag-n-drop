@@ -22,7 +22,7 @@ export default class ChangingProduct extends React.Component {
 	
 
 	render() {
-		const { product, isDragging, connectDragSource , connectDragPreview , resizeProduct } = this.props;
+		const { product, isDragging, connectDragSource , connectDragPreview , resizeProduct , deleteProduct} = this.props;
 
 		const handlerStyle = {
 			width : '10px',
@@ -75,6 +75,9 @@ export default class ChangingProduct extends React.Component {
 						isResizable={handlers}
 						handleClass={handlersClass}>
 
+						<button class={classNames(styles.deleteProduct)} onClick={() => deleteProduct(product)}>
+							<span class="fa fa-times"></span>
+						</button>
 						{connectDragSource(
 							<div>
 							<ProductImage product={product}></ProductImage>

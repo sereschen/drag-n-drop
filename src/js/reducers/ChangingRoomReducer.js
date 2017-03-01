@@ -49,6 +49,21 @@ export default function reducer(state = {
                 }
             });
         }
+
+        case ChangingRoomActions.DELETE_PRODUCT: {
+            const { product } = action.payload;
+            const index = _.findIndex(state.products, (item) =>{ 
+                return item.productId === product.productId
+            });
+            if (index < 0) {
+                return state;
+            }
+            return update(state, {
+                products: {
+                    $splice: [[index,1]]
+                }
+            });
+        }
     }
 
     return state
