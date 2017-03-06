@@ -5,6 +5,7 @@ import { DragSource } from 'react-dnd';
 import DnDTypes from "../../constants/DnDTypes";
 import ProductImage from "../ProductImage/ProductImage";
 import Resizable from "react-resizable-box";
+import { getEmptyImage } from 'react-dnd-html5-backend';
 
 const productSource = {
 	beginDrag(props) {
@@ -20,15 +21,20 @@ const productSource = {
 }))
 export default class ChangingProduct extends React.Component {
 	
+	componentDidMount() {
+		this.props.connectDragPreview(getEmptyImage());
+	}
+
 
 	render() {
-		const { product, isDragging, connectDragSource , connectDragPreview , resizeProduct , deleteProduct} = this.props;
+		const { product, isDragging, connectDragSource , resizeProduct , deleteProduct} = this.props;
 
 		const handlerStyle = {
 			width : '10px',
 			height : '10px',
 			borderRadius : '50%',
-			background  : '#000',
+			border : '1px solid' + styles.cabiPink,
+			background  : '#fff',
 			position : 'absolute'
 		};
 
@@ -70,10 +76,12 @@ export default class ChangingProduct extends React.Component {
 			<div class={classNames(styles.changingProduct)} style={{ top : product.top , left : product.left}}>
 				<Resizable onResizeStop={(direction, styleSize)=> resizeProduct(product, styleSize.width, styleSize.height)} 
 						width={product.width} 
+						height={product.height} 
 						lockAspectRatio={true}
 						handleStyle={handlersStyles}
 						isResizable={handlers}
-						handleClass={handlersClass}>
+						handleClass={handlersClass}
+						>
 
 						<button class={classNames(styles.deleteProduct)} onClick={() => deleteProduct(product)}>
 							<span class="fa fa-times"></span>

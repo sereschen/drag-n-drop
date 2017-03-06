@@ -2,11 +2,14 @@
 	height: 500px;
 	margin-bottom: 1em;
 	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
 }
 
 .changing-room-container {
 	height: 700px;
 	padding: 1em 1em 1em 0;
+	position: relative;
 }
 
 .black-btn {

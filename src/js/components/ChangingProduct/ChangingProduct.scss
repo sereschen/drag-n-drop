@@ -1,7 +1,16 @@
+@import "../../styles/variables";
+:export { cabiPink: $cabi-pink; }
+
 .changingProduct{
 	position: absolute;
+	.handler{
+		opacity:0;
+	}
 	&:hover{
-		border: 1px dashed gray;
+		border: 1px solid $cabi-pink;
+		.handler{
+			opacity : 1;
+		}
 	}
 	div{
 		width: 100%;
@@ -15,13 +24,6 @@
 	right:10px;
 	background : none;
 	border:0;
-	opacity:0;
-	&:hover{
-		opacity:1;
-	}
-}
-
-.handler{
 	opacity:0;
 	&:hover{
 		opacity:1;
